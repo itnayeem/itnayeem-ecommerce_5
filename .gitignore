@@ -1,0 +1,32 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and runtime caches
+*.log
+project/storage/logs/*.log
+project/storage/framework/cache/data/*
+!project/storage/framework/cache/data/.gitignore
+project/storage/framework/sessions/*
+!project/storage/framework/sessions/.gitignore
+project/storage/framework/views/*
+!project/storage/framework/views/.gitignore
+
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Dynamic runtime images
+assets/images/capcha_code.png
